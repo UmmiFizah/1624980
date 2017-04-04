@@ -1,0 +1,274 @@
+﻿body {
+  
+   
+}
+
+#wrapper{
+    width: 100%;
+    /* margin-left: 250px;
+    margin-right: 250px; */
+    position:center;
+    background-color:pink;
+    margin-bottom: 0px;
+}
+
+#logo img{
+    padding-left: 450px;
+    padding-top:10px;
+    width: 432px;
+    position:center;
+
+}
+
+#header1 img {
+    position:center;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+}
+
+#Collection {
+    margin-right: 100px;
+
+}
+
+.Collection {
+    margin-right: 100px;
+}
+
+#newitemwrapper-spotligh {
+    margin-right: 100px;
+
+}
+
+.newitemwapper-spotlight {
+    margin-right: 100px;
+
+}
+    
+.Blouse1 {
+    float: right;
+    border: 5px solid black;
+    margin: 80px 20px 50px 20px;
+    border: 3px solid grey;
+    margin-top: 1px;
+    position: relative;
+    width: 225px;
+    height: 270px;
+    overflow: hidden;
+    margin-right: 100px;
+}
+
+.Blouse1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.Blouse1 .prodtext {
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%; 
+    height: 100%;
+    color: #fff;
+    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.Blouse1:hover .prodtext {
+    top: 0px;
+}
+
+.Blouse1 .prodtext h4 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Blouse1 .prodtext p {
+    margin: 15px 0px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+#Navigation1{
+  margin-left: 0px;  
+
+    
+    
+}
+
+#Navigation1 img {
+    height: 20px;
+    width: 20px;
+    
+}
+#Navigation1 ul li {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    padding-left: 20px;
+    font-size: 15px;
+    border-left: 1px solid black;
+    font-family: FacetLight;
+}
+
+#Navigation1 a:link{
+    text-decoration:none;
+    color:black;
+}
+
+
+#p.serif {
+    font-family: FacetLight;
+}
+
+#p.sansserif {
+    font-family: FacetLight;
+}
+
+#Nav2{
+    float: left;
+    padding-left:360px;
+    width: 593px;
+    position:center;
+}
+
+#Nav2 a:link{
+    text-decoration:none;
+    color:black;
+}
+
+#Nav2 ul li{
+    display:inline;
+    text-decoration:none;
+    color:black;
+    list-style:none; 
+    padding-left:10px;
+    font-size:30px; 
+    font-family: FacetLight;
+    
+    
+}
+
+#auto-style1 {
+    color:darkgray; font-family:Casque;       
+}
+
+
+#column1{
+    border: 1px solid grey ;
+    float: left;
+
+
+}
+
+
+#footer { clear:both;padding: 50px 0; border-top: 1px #000 dotted; background-color: darkturquoise;}
+#footer p {text-align: center;  font-size: 14px; font-family:Avian ; }
+#footer a:link{ color:black;text-decoration:none;font-family: Avian; font-size:x-small; display:inline; position:center;}
+    #footer ul li {
+        display: inline;
+        text-decoration: none;
+        color: black;
+        list-style: none;
+    }
+
+
+#map
+{
+    height: 292px;
+    width:542px;
+    border: 1px solid black;
+    margin-right: 6px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+p span{
+    text-decoration:none;
+    color:black;
+    font-family: Centaur;
+    margin-left:40px;
+    color:red;
+
+}
+
+.p span{
+    color:red;
+    
+}
+    
+
+#column1 {
+    position:center;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 190px;
+    padding: 1em;
+    width: 441px;
+       margin-right:110px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+      margin-right:110px;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 50px;
+    border-left: 1px solid white;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.Button1{
+    position:center;
+}
+
+.hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
