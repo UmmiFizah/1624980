@@ -105,6 +105,7 @@
     <Content Include="Blouse.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Contact.css" />
+    <Content Include="Default.aspx" />
     <Content Include="Image\alice.JPG" />
     <Content Include="Image\banner1.gif" />
     <Content Include="Image\cardi.PNG" />
@@ -115,6 +116,8 @@
     <Content Include="Image\cardiwhite.PNG" />
     <Content Include="Image\cardiWhiteNew.PNG" />
     <Content Include="Image\example.PNG" />
+    <Content Include="Image\fb.jpg" />
+    <Content Include="Image\ig.png" />
     <Content Include="Image\japplegreen.PNG" />
     <Content Include="Image\jblue.PNG" />
     <Content Include="Image\jguava.PNG" />
@@ -123,7 +126,6 @@
     <Content Include="Image\Jsalmon.PNG" />
     <Content Include="Image\latest blouse.PNG" />
     <Content Include="Image\Qayla.PNG" />
-    <Content Include="Index.aspx" />
     <Content Include="Index.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -163,15 +165,15 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Index.aspx.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Index.aspx.designer.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Masterpage.Master.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
