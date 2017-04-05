@@ -34,7 +34,13 @@
 
 .Collection {
     margin-right: 100px;
+   
 }
+
+#Collection h2 {
+    text-align: center;
+}
+
 
 #newitemwrapper-Collection {
     margin-right: 100px;
