@@ -13,10 +13,10 @@
          
                     <div class="newitemwrapper-Collection">
                       <h6>Join over 50,000 customers who satisfied with</h6>
-                        <h2 align="center">QAYLA.CO NEW COLLECTION</h2>
+                        <h2>QAYLA.CO NEW COLLECTION</h2>
                       
 
-                        <p align="center">&nbsp;</p>
+                        
                         <div class="Blouse1" id="Cardi1">
                             <a href="Blouse.aspx">
                             <img src="Image/cardiBeigeNew.png" /></a>

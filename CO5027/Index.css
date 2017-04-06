@@ -296,12 +296,15 @@ article {
 #gmap_canvas{
     height:400px;
     width:520px;
+    padding-left: 450px;
 
 } 
 
 .gmap_canvas{
     height:400px;
     width:520px;
+     text-align:center;
+     padding-left: 450px;
 
 } 
 

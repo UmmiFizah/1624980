@@ -77,20 +77,18 @@
 
     <hr />
 
-   <h2>OUR LOCATION</h2> <br />
+   <h2 style="text-align: center">OUR LOCATION</h2> <br />
      
 
 
     
-    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCCYOKFa_OO7arlpEzD0IzT0eR5e181YG8'></script>
-    <div class="mappp">
-        <div id='gmap_canvas'>  </div>
+   <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCCYOKFa_OO7arlpEzD0IzT0eR5e181YG8'></script>
+    <div style='overflow:hidden;height:400px;width:520px; '>
 
-     <a href='https://add-map.org/'></a> 
-         <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=a5f6ceeb79b68e415cfce2596cd259642d0634fb'>
-    </script>
-    <script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(4.8863094,114.93202059999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(4.8863094,114.93202059999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Our Location</strong><br>Jalan Batu Satu<br> Bandar Seri Begawan<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+<div id='gmap_canvas' style='height:400px;width:520px; position:center;'></div>
 
-      </div>
+<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> 
+
+<a href='https://add-map.org/'></a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=a5f6ceeb79b68e415cfce2596cd259642d0634fb'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(4.8863094,114.93202059999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(4.8863094,114.93202059999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Our Location</strong><br>Jalan Batu Satu<br> Bandar Seri Begawan<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 </asp:Content>
 
