@@ -61,7 +61,7 @@
                         </div>
                         <div class="Blouse1" id="Julie6">
                             <img src="Image/jguava.png" alt="Blouse"/>
-                            <div class="prodtext">
+                            <div class="prodtext"> 
                                 <h4>Julie Longtop</h4>
                                 <p>Guava</p>
                                 <p><a class="morebutton" href="Blouse.aspx" title="moreinfo">New Arrival</a></p>
