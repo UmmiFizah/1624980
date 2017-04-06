@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
      <div id="header1">
-        &nbsp;<img src="Image/banner1.gif"/>
+        &nbsp;<img src="Image/banner1.gif" alt="Blouse"/>
     </div>
 
 
@@ -68,7 +68,7 @@
                             </div>
                         </div>
                         <div class="Blouse1" id="Julie7">
-                            <img src="Image/jplum.png"alt="Blouse"/>
+                            <img src="Image/jplum.png" alt="Blouse"/>
                             <div class="prodtext">
                                 <h4>Julie Longtop</h4>
                                 <p>Mulberry Plum</p>
@@ -84,7 +84,7 @@
                             </div>
                         </div>
                         <div class="Blouse1" id="Julie9">
-                            <img src="Image/Jsalmon.Png"alt="Blouse"/>
+                            <img src="Image/Jsalmon.Png" alt="Blouse"/>
                             <div class="prodtext">
                                 <h4>Julie Longtop</h4>
                                 <p>Salmon</p>

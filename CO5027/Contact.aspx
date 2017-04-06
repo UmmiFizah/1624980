@@ -68,7 +68,7 @@
   
 </div>
         <ul class="socialmedia">
-                    <li><a href="https://www.facebook.com"><img src="Image/fb.jpg"alt="facebook"/></a> </li>
+                    <li><a href="https://www.facebook.com"><img src="Image/fb.jpg" alt="facebook"/></a> </li>
                     <li><a href="https://www.instagram.com"><img src="Image/ig.png" alt="Instagram"/></a> </li>
 
             </ul>
