@@ -19,15 +19,16 @@
                         
                         <div class="Blouse1" id="Cardi1">
                             <a href="Blouse.aspx">
-                            <img src="Image/cardiBeigeNew.png" /></a>
+                            <img src="Image/cardiBeigeNew.png" alt="Blouse"/></a>
                             <div class="prodtext">
                                 <h4>Cardi Blouse</h4>
                                 <p>beige</p>
                                 <p><a class="morebutton" href="Blouse.aspx" title="moreinfo">New Arrival</a></p>
-                            </div>
+ 
+                                                        </div>
                         </div>
                         <div class="Blouse1" id="cardi2">
-                            <img src="Image/cardiPruneNew.png"/>
+                            <img src="Image/cardiPruneNew.png" alt="Blouse"/>
                             <div class="prodtext">
                                 <h4>Cardi Blouse</h4>
                                 <p>Purple Prune</p>
@@ -35,7 +36,7 @@
                             </div>
                         </div>
                         <div class="Blouse1" id="cardi3">
-                            <img src="Image/cardiWhiteNew.PNG" />
+                            <img src="Image/cardiWhiteNew.PNG" alt="Blouse"/> 
                             <div class="prodtext">
                                 <h4>Cardi Blouse</h4>
                                 <p>White</p>
@@ -43,7 +44,7 @@
                             </div>
                         </div>
                         <div class="Blouse1" id="Julie4">
-                            <img src="Image/japplegreen.png"/>
+                            <img src="Image/japplegreen.png" alt="Blouse"/>
                             <div class="prodtext">
                                 <h4>Julie Longtop</h4>
                                 <p>Apple Green</p>
@@ -51,7 +52,7 @@
                             </div>
                         </div>
                         <div class="Blouse1" id="Julie5">
-                            <img src="Image/jblue.Png" />
+                            <img src="Image/jblue.Png" alt="Blouse"/>
                             <div class="prodtext">
                                 <h4>Julie Longtop</h4>
                                 <p>Royal Blue</p>
@@ -59,7 +60,7 @@
                             </div>
                         </div>
                         <div class="Blouse1" id="Julie6">
-                            <img src="Image/jguava.png" />
+                            <img src="Image/jguava.png" alt="Blouse"/>
                             <div class="prodtext">
                                 <h4>Julie Longtop</h4>
                                 <p>Guava</p>
@@ -67,15 +68,15 @@
                             </div>
                         </div>
                         <div class="Blouse1" id="Julie7">
-                            <img src="Image/jplum.png" />
+                            <img src="Image/jplum.png"alt="Blouse"/>
                             <div class="prodtext">
-                                <h4>Julie Longtop</</h4>
+                                <h4>Julie Longtop</h4>
                                 <p>Mulberry Plum</p>
                                 <p><a class="morebutton" href="Blouse.aspx" title="moreinfo">New Arrival</a></p>
                             </div>
                         </div>
                         <div class="Blouse1" id="cJulie8">
-                            <img src="Image/jrosewood.png" />
+                            <img src="Image/jrosewood.png" alt="Blouse"/>
                             <div class="prodtext">
                                 <h4>Julie Longtop</h4>
                                 <p>Rosewood</p>
@@ -83,7 +84,7 @@
                             </div>
                         </div>
                         <div class="Blouse1" id="Julie9">
-                            <img src="Image/Jsalmon.Png" />
+                            <img src="Image/Jsalmon.Png"alt="Blouse"/>
                             <div class="prodtext">
                                 <h4>Julie Longtop</h4>
                                 <p>Salmon</p>
