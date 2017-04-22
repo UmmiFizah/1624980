@@ -2,11 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Index.css" rel="stylesheet" type="text/css" media="screen" />
-    <style type="text/css">
-        .column1 {
-            width: 675px;
-        }
-    </style>
+ 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
@@ -53,7 +49,7 @@
 </nav>
       
 
-     <div class="article">
+      q q<div class="article">
   <h1>Dont be shy to contact us!</h1>
          <p>Our friendly Help Team can be reached Monday through Saturday, from 10am to 9pm, Just fill in the form to contact us.</p>
             <hr>
@@ -79,15 +75,30 @@ Email:Qayla.Co1@gmail.com</p>
 
    <h2 style="text-align: center">OUR LOCATION</h2> <br />
      
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCCYOKFa_OO7arlpEzD0IzT0eR5e181YG8'></script><div style='overflow:hidden;height:400px;width:520px;'>
+ <div id="map"></div>
 
-<div id='gmap_canvas' style='height:400px;width:520px;'></div>
+    <script>
+        function initMap() {
+            var myLatLng = { lat: 4.885478, lng: 114.931605 };
 
-<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> 
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 18,
+                center: myLatLng
+            });
 
-<a href='https://add-map.org/'>how to add a google map to a website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=a5f6ceeb79b68e415cfce2596cd259642d0634fb'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(4.8863094,114.93202059999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(4.8863094,114.93202059999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Our Location</strong><br>Jalan Batu Satu<br> Bandar Seri Begawan<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Hello World!'
+            });
+        }
+    </script>
 
-    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoE5lihn3Zxq6tbgv3V83cWCKYqeZqKZE&callback=initMap"
+        async defer></script>
+
+    <br />
+
  
 </asp:Content>
 
