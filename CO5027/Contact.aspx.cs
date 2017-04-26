@@ -38,15 +38,15 @@ namespace CO5027
                 System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("qayla.co1@gmail.com", "goodluck56");
                 smtpClient.Credentials = credentials;
                 msg = new MailMessage("qayla.co1@gmail.com", TxtEmail.Text);
-                msg.Subject = "Message from " + txtName.Text;
-                msg.Body = TxtMessage.Text;
+                msg.Subject =  " Subject:  " + TxtSubject.Text;
+                msg.Body = "Name: " + txtName.Text + " Message: " + TxtMessage.Text;
 
 
 
                 try
                 {
                     smtpClient.Send(msg);
-                       ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('successfully Send Message, Thank You');", true);
+                       ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Successfully Send Message!, Thank You');", true);
                 }
                 catch (Exception ex)
                 {
@@ -58,7 +58,7 @@ namespace CO5027
         }
     }
 
-}
+
 
 
 
