@@ -52,7 +52,7 @@ namespace CO5027
                 {
                     //display the full error to the user
                    
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('<p>Send failed: " + ex.Message + ":" + ex.InnerException + "</p>');", true);
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Send failed: " + ex.Message + ":" + ex.InnerException + "');", true);
                 }
             }
         }

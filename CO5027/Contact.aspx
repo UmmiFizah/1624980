@@ -32,7 +32,7 @@
        
          <div class="ctcEmail"> <asp:TextBox ID="TxtEmail" runat="server"></asp:TextBox></div>
         <span class="required">*</span> <asp:RegularExpressionValidator ID="reqValEmail" runat="server" ErrorMessage="Email address is not valid" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="TxtEmail" CssClass="reqValEmail"></asp:RegularExpressionValidator></li> 
-      &nbsp;<asp:RequiredFieldValidator ID="ReqFieldEmail" runat="server" ErrorMessage="Email Cannot be left Blank" ControlToValidate="TxtEmail" CssClass="ReqFieldEmail"></asp:RequiredFieldValidator>
+      <asp:RequiredFieldValidator ID="ReqFieldEmail" runat="server" ErrorMessage="Email Cannot be left Blank" ControlToValidate="TxtEmail" CssClass="ReqFieldEmail"></asp:RequiredFieldValidator>
 
     <li>Subject:<br />
         <div class="ctcSubject">  <asp:TextBox ID="TxtSubject" runat="server"></asp:TextBox></div>
