@@ -40,9 +40,9 @@ namespace CO5027
 
         private void LogUserIn(UserManager<IdentityUser> usermanager, IdentityUser user)
         {
-            // var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
+            //var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
             // var userIdentity = usermanager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
-            // authenticationManager.SignIn(new Microsoft.Owin.Security.AuthenticationProperties() { }, userIdentity); 
+             //authenticationManager.SignIn(new Microsoft.Owin.Security.AuthenticationProperties() { }, userIdentity); 
 
         }
 

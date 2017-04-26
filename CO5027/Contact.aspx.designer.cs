@@ -22,6 +22,15 @@ namespace CO5027 {
         protected global::System.Web.UI.WebControls.TextBox txtName;
         
         /// <summary>
+        /// ReqValName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValName;
+        
+        /// <summary>
         /// TxtEmail control.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,24 @@ namespace CO5027 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtEmail;
+        
+        /// <summary>
+        /// reqValEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator reqValEmail;
+        
+        /// <summary>
+        /// ReqFieldEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqFieldEmail;
         
         /// <summary>
         /// TxtSubject control.
@@ -40,6 +67,15 @@ namespace CO5027 {
         protected global::System.Web.UI.WebControls.TextBox TxtSubject;
         
         /// <summary>
+        /// reqValSubj control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValSubj;
+        
+        /// <summary>
         /// TxtMessage control.
         /// </summary>
         /// <remarks>
@@ -49,6 +85,15 @@ namespace CO5027 {
         protected global::System.Web.UI.WebControls.TextBox TxtMessage;
         
         /// <summary>
+        /// ReqValMsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValMsg;
+        
+        /// <summary>
         /// BtnSendEmail control.
         /// </summary>
         /// <remarks>
@@ -56,14 +101,5 @@ namespace CO5027 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnSendEmail;
-        
-        /// <summary>
-        /// litResult control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litResult;
     }
 }

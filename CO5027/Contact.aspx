@@ -25,31 +25,31 @@
 
         
         <div class="ctcname"><asp:TextBox ID="txtName" runat="server"></asp:TextBox></div>
-        <span class="required">*</span></li>
+        <span class="required">*</span><asp:RequiredFieldValidator ID="ReqValName" runat="server" ErrorMessage="Name cannot be left blank" ControlToValidate="txtName" CssClass="ReqValName"></asp:RequiredFieldValidator></li>
 
       
     <li> Email:<br />
        
          <div class="ctcEmail"> <asp:TextBox ID="TxtEmail" runat="server"></asp:TextBox></div>
-        <span class="required">*</span></li>
+        <span class="required">*</span> <asp:RegularExpressionValidator ID="reqValEmail" runat="server" ErrorMessage="Email address is not valid" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="TxtEmail" CssClass="reqValEmail"></asp:RegularExpressionValidator></li> 
+      &nbsp;<asp:RequiredFieldValidator ID="ReqFieldEmail" runat="server" ErrorMessage="Email Cannot be left Blank" ControlToValidate="TxtEmail" CssClass="ReqFieldEmail"></asp:RequiredFieldValidator>
 
     <li>Subject:<br />
         <div class="ctcSubject">  <asp:TextBox ID="TxtSubject" runat="server"></asp:TextBox></div>
-        <span class="required">*</span></li>
+        <span class="required">*</span><asp:RequiredFieldValidator ID="reqValSubj" runat="server" ErrorMessage="Subject Cannot be left Blank" ControlToValidate="TxtSubject" CssClass="reqValSubj"></asp:RequiredFieldValidator></li>
   
             <li>Message :<br />
      <div class="ctcMessage"><asp:TextBox ID="TxtMessage" runat="server" TextMode="MultiLine" ></asp:TextBox></div>
-         <span class="required">*</span></li>
+         <span class="required">*</span><asp:RequiredFieldValidator ID="ReqValMsg" runat="server" ErrorMessage="Message Cannot be left Blank" ControlToValidate="TxtMessage" CssClass="ReqValMsg"></asp:RequiredFieldValidator></li>
  
 
-    <li> <div class="ctcbutton"><asp:Button ID="BtnSendEmail" runat="server" Text="SEND MESSAGE"  OnClick="BtnSendEmail_Click" BackColor="Black" BorderColor="#333333"  ForeColor="White" /></div>
+    <li> <div class="ctcbutton"><asp:Button ID="BtnSendEmail" runat="server" Text="SEND MESSAGE"  OnClick="BtnSendEmail_Click" BackColor="Black" BorderColor="#333333"  ForeColor="White" style="width: 160px" /></div>
 </li>
-       <asp:Literal ID="litResult" runat="server"></asp:Literal>
-</ul>
+       </ul>
 </nav>
       
 
-      q q<div class="article">
+      <div class="article">
   <h1>Dont be shy to contact us!</h1>
          <p>Our friendly Help Team can be reached Monday through Saturday, from 10am to 9pm, Just fill in the form to contact us.</p>
             <hr>
@@ -72,6 +72,7 @@ Email:Qayla.Co1@gmail.com</p>
 
         
     <hr />
+
 
    <h2 style="text-align: center">OUR LOCATION</h2> <br />
      

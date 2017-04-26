@@ -266,7 +266,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-      margin-right:110px;
+      margin-right:12px;
 }
    
 nav ul a {
@@ -409,4 +409,25 @@ article {
     width: 300px;
     margin-top:100px;
     margin-right:215px;
+}
+
+.ReqValName{
+      color:red;
+}
+
+.reqValSubj{
+     color:red;
+}
+
+.reqValEmail{
+
+        color:red;
+}
+
+.ReqValMsg{
+     color:red;
+}
+
+.ReqFieldEmail{
+    color:red;
 }
