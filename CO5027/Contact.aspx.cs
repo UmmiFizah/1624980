@@ -21,11 +21,12 @@ namespace CO5027
 
             //create mail client and message with to and from address, and set message subject and body
 
- 
+
+            
 
 
                 SmtpClient smtpClient = new SmtpClient();
-                MailMessage msg = new MailMessage("qayla.co1@gmail.com", TxtEmail.Text);
+                MailMessage msg = new MailMessage("qayla.co1 @gmail.com", TxtEmail.Text);
 
 
                 //settings sepcific to the mail service, e.g. server location, port number and that ssl is required
@@ -35,9 +36,9 @@ namespace CO5027
                 smtpClient.EnableSsl = true;
 
                 //create credentials - e.g. username and password for the account
-                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("qayla.co1@gmail.com", "goodluck56");
+                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("qayla.co1 @gmail.com", "p@$$w0rd1994");
                 smtpClient.Credentials = credentials;
-                msg = new MailMessage("qayla.co1@gmail.com", TxtEmail.Text);
+                msg = new MailMessage("qayla.co1 @gmail.com", TxtEmail.Text);
                 msg.Subject =  " Subject:  " + TxtSubject.Text;
                 msg.Body = "Name: " + txtName.Text + " Message: " + TxtMessage.Text;
 

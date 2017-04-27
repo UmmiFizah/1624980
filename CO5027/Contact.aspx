@@ -18,16 +18,11 @@
 
         <nav>
   <ul>
-    <li>Name : 
-    <br />
-
-
-
+    <li>Name:
         
         <div class="ctcname"><asp:TextBox ID="txtName" runat="server"></asp:TextBox></div>
         <span class="required">*</span><asp:RequiredFieldValidator ID="ReqValName" runat="server" ErrorMessage="Name cannot be left blank" ControlToValidate="txtName" CssClass="ReqValName"></asp:RequiredFieldValidator></li>
 
-      
     <li> Email:<br />
        
          <div class="ctcEmail"> <asp:TextBox ID="TxtEmail" runat="server"></asp:TextBox></div>
@@ -102,4 +97,3 @@ Email:Qayla.Co1@gmail.com</p>
 
  
 </asp:Content>
-
