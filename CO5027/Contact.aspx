@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="CO5027.Contact" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="CO5027.Contact" EnableEventValidation="false" ValidateRequest="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Index.css" rel="stylesheet" type="text/css" media="screen" />
@@ -38,7 +38,9 @@
          <span class="required">*</span><asp:RequiredFieldValidator ID="ReqValMsg" runat="server" ErrorMessage="Message Cannot be left Blank" ControlToValidate="TxtMessage" CssClass="ReqValMsg"></asp:RequiredFieldValidator></li>
  
 
-    <li> <div class="ctcbutton"><asp:Button ID="BtnSendEmail" runat="server" Text="SEND MESSAGE"  OnClick="BtnSendEmail_Click" BackColor="Black" BorderColor="#333333"  ForeColor="White" style="width: 160px" /></div>
+    <li> <div class="ctcbutton"><asp:Button ID="BtnSendEmail" runat="server" Text="SEND MESSAGE"  OnClick="BtnSendEmail_Click" BackColor="Black" BorderColor="#333333"  ForeColor="White" style="width: 160px" />
+        <asp:Literal ID="litResult" runat="server"></asp:Literal>
+        </div>
 </li>
        </ul>
 </nav>
