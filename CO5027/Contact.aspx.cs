@@ -63,8 +63,8 @@ namespace CO5027
                 client.Credentials = userpass;
 
                 MailMessage msg = new MailMessage();
-                msg.From = new MailAddress(TxtEmail.Text);
-                msg.To.Add(new MailAddress("qayla.co1@gmail.com"));
+                msg.From = new MailAddress("qayla.co1@gmail.com");
+                msg.To.Add(new MailAddress(TxtEmail.Text));
 
                 msg.Subject = TxtEmail.Text;
                 msg.IsBodyHtml = true;
