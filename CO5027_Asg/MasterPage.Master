@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="CO5027_Asg.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <link href="Index.css" rel="stylesheet" type="text/css" media="screen" /> 
+    <title>Qayla.Co</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+   
+  
+
+</head>
+<body>
+
+    
+    <form id="form1" runat="server">
+
+     
+
+        <div id="Navigation1"> 
+            <ul>
+
+                <li><input type="text" value="" placeholder="Type here..." class="form-control" name="s" id="s" />
+		<input type="hidden" name="post_type" value="product" />
+		<button type="submit" class="btn filled">Search<i class="fa fa-search"> </i></button>
+
+                &nbsp;&nbsp;
+
+                </li>
+	<li><a href="Login.aspx">Log in</a></li>
+   <li><a href="Register.aspx">Create account </a></li>
+    <li><a href="Cart.aspx">Cart</a></li>
+   
+    
+</ul>
+        </div>
+         
+           <!-- logo -->
+
+             <div id="logo">
+                 <img src="Image/Qayla.PNG" alt="logo"/> </div>
+        
+     
+        
+           <!-- navigation bar -->
+
+
+            <div id="Nav2">
+
+             <ul>
+	                 <li><a href="Default.aspx">Home</a></li>
+    <li><a href="Blouse.aspx">Blouse</a></li>
+	<li><a href="Contact.aspx">Contact us</a></li>
+    
+</ul>
+
+            </div>
+           <!-- <div id="wrapper"> -->
+
+         <div id ="content">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            
+            
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+                
+
+               
+            <div id="footer">
+                
+            <h1> Q A Y L A . C O </h1>
+
+              
+
+	<p>Copyright 2016 Qayla.Co All Rights Reserved. </p>
+
+
+               <p><a href="Admin.aspx">Admin</a> |
+                   <a href="Blouse.aspx">Blouse</a>
+                   </p>
+
+                  
+                       
+                   <p>
+                
+               <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS </a> | 
+
+                <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> | 
+
+                <a href="http://achecker.c/checker/?uri=referer">Check WCAG </a> | 
+</p>
+          
+              
+
+</div>
+       
+
+   
+    </form>
+    
+</body>
+</html>
